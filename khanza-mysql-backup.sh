@@ -74,7 +74,7 @@ find $backups_dir/* -mtime +$longdays -exec rm {} \;
 #####################################################################
 # add to google drive / onedrive (cooming soon), follow these step :
 # 1. create a google drive account
-# 2. download insync from http://bit.ly/insync-cloud 
+# 2. download insync from http://bit.ly/insync-cloud or alternate free https://liberodark.github.io/ODrive/ 
 # 3. install to your gui os
 # 4. change some configuration
 # 5. done 
