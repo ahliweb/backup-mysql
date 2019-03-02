@@ -14,7 +14,7 @@
 # encapsilate each database name in single quotes and separate each database name by a space.
 # Example: 
 # databases=( '__DATABASE_1__' '__DATABASE_2__' )
-databases=('KhanzaHI' )
+databases=('your-db')
 
 # The host name of the MySQL database server; usually 'localhost'
 db_host="localhost"
@@ -26,16 +26,16 @@ db_port="3306"
 db_user="root"
 
 # The password for the above MySQL user.
-db_pass="your-db-password"
+db_pass="your-password"
 
 # Directory to which backup files will be written. Should end with slash ("/").
-backups_dir="/home/harapaninsani/Khanza/Backup"
+backups_dir="/home/your-direktory/Khanza/Backup/"
 
 # User to perform backup command
 backups_user="root"
 
 # Retency to keep your backup files
-longdays = "60"
+longdays="60"
 
 #####################################################################
 # don't change script bellow unles you know what you do
