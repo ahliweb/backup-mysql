@@ -64,10 +64,16 @@ find $backups_dir/* -mtime +$longdays -exec rm {} \;
 #####################################################################
 # add to crontab, follow these step :
 # 1. save this file to .sh file extention
-# 2. add chmod +X to this file
-# 3. open crontab as specified with your operating system
+# 2. add chmod +X (execute) to this file
+# 3. open crontab as specified with your operating system. 
+#    type on terminal : sudo crontab -e (on linux mint will open nano as editor)
 # 4. set your crontab configuration
-# 5. save your crontab configuration
+#    then add time specific :
+#    as example, to run schedule execution 3 times daily please change minute and hour bellow,
+#    5 1 * * * /home/harapaninsani/Khanza/Update/khanza-mysql-backup.sh
+#    5 9 * * * /home/harapaninsani/Khanza/Update/khanza-mysql-backup.sh
+#    5 17 * * * /home/harapaninsani/Khanza/Update/khanza-mysql-backup.sh
+# 5. save your crontab configuration by press ctrl + o then press enter. to exit pres ctrl + x 
 # 6. done
 #####################################################################
 
