@@ -1,3 +1,3 @@
-# automatic-cloud-backup-mysql
+#linuxmint-bashscript-mysqldump-cronjob
 
-please refer to https://github.com/ahliweb/automatic-cloud-backup-mysql/blob/master/khanza-mysql-backup.sh
+updated with google drive support
